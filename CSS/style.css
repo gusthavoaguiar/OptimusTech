@@ -1,0 +1,21 @@
+@import "navbar.css";
+@import "header.css";
+@import "metric.css";
+@import "job.css";
+@import "vagas.css";
+@import "testimony.css";
+@import "footer.css";
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+

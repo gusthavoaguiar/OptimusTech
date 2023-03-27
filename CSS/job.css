@@ -1,0 +1,32 @@
+.job {
+    margin-top: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.job h4 {
+    width: 125px;
+    height: 28px;
+    font-weight: 500;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #8E24240D;
+    color: #8E2424;
+    border-radius: 20px;
+}
+
+.job h1 {
+    font-size: 36px;
+    font-weight: 600;
+}
+.job p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #667085;
+    margin-bottom: 64px;
+}

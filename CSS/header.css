@@ -1,0 +1,27 @@
+.header {
+    margin-top: 96px;
+    gap: 32px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.about {
+    color: #8E2424;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.header h1 {
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.text {
+    width: 791px;
+    display: flex;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    color: #667085;
+}

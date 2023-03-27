@@ -1,0 +1,78 @@
+footer {
+    width: 100%;
+    height: 430px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F9FAFB;
+}
+
+.footer__text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 96px;
+    margin-bottom: 40px;
+    gap: 20px;
+}
+
+.footer__text h1 {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.footer__text p {
+    font-size: 20px;
+    color: #667085;
+}
+
+.e-mail__box {
+    width: 492px;
+    height: 48px;
+    gap: 16px;
+    margin-bottom: 32px;
+    display: flex;
+    position: relative;
+}
+
+.e-mail__box button {
+    width: 116px;
+    height: 48px;
+    background-color: #8E2424;
+    font-size: 16px;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    padding: 12px 20px;
+}
+
+.e-mail__box input {
+    width: 360px;
+    height: 48px;
+    border-radius: 8px;
+    border: 1px solid #D0D5DD;
+    outline: none;
+    padding: 0 10px;
+    font-size: 20px;
+}
+
+.e-mail__box label {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    color: black;
+    font-size: 18px;
+    transition: top .3s;
+    padding: 0 5px;
+    pointer-events: none;
+}
+
+.e-mail__box input:focus ~ label {
+    top: -9px;
+    background-color: #F9FAFB;
+}
+
+.footer__p {
+    color: #98A2B3;
+    ;
+}

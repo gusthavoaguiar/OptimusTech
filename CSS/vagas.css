@@ -1,0 +1,42 @@
+.vagas {
+    margin-top: 64px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    width: 770px;
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 64px;
+    margin-bottom: 32px;
+}
+
+.vaga {
+    width: 768px;
+    height: 136px;
+    margin-bottom: 24px;
+    border: 1px solid #EAECF0;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.vaga h4 {
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 24px;
+    margin-left: 24px;
+}
+
+.vaga__text {
+    margin-top: 32px;
+    margin-left: 24px;
+    margin-bottom: 28px;
+    width: 720px;
+    height: 24px;
+    color: #667085;
+    display: flex;
+    gap: 24px;
+}

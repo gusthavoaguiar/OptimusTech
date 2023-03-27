@@ -1,0 +1,31 @@
+.metric {
+    margin-top: 96px;
+    display: flex;
+    align-items: center;justify-content: center;
+    gap: 24px;
+}
+
+.metric__item {
+    width: 280px;
+    height: 168px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+}
+
+.metric__item h1 {
+    font-size: 60px;
+    color: #8E2424;
+}
+
+.subtitle {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.metric__item p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #667085;
+}
