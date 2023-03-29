@@ -19,3 +19,155 @@ body {
     flex-direction: column;
 }
 
+@media screen and (max-width: 768px) {
+    
+    nav {
+        width: 100%;
+    }
+    
+    .-p {
+        display: none;
+    }
+    
+    nav img {
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+    
+    .register {
+        margin-right: 16px;
+    }
+    
+    .header__text {
+        width: 600px;
+    }
+    
+    .metric {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .job img {
+        width: 700px;
+    }
+    
+    .title {
+        margin-left: 175px;
+    }
+    .vaga {
+        width: 600px;
+    }
+
+    .testimony {
+        width: 500px;
+    }
+
+    .quote h1{
+        width: 500px;
+        font-size: 20px;
+    }
+
+    footer {
+        width: 768px;
+    }
+
+    .footer__text h1 {
+        font-size: 30px;
+    }
+
+    .footer__text p {
+        font-size: 17px;
+    }
+
+    .e-mail__box {
+        width: 400px;
+    }
+
+    .e-mail__box button {
+        width: 96px;
+        padding: 10px 10px;
+    }
+
+    .footer__p {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    nav img {
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+
+    ul {
+        margin-top: 32px;
+        gap: 24px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .header h1 {
+        margin-left: 490px;
+        width: 1000px;
+        font-size: 40px;
+    }
+
+    .header__text {
+        width: 500px;
+    }
+
+    .job h1 {
+        font-size: 32px;
+    }
+
+    .job p {
+        width: 500px;
+        text-align: center;
+    }
+
+    .job img {
+        width: 550px;
+    }
+
+    .title {
+        margin-left: 240px;
+    }
+
+    .vaga {
+        width: 540px;
+    }
+
+    .testimony {
+        width: 400px;
+    }
+
+    .quote h1{
+        width: 450px;
+        font-size: 20px;
+    }
+
+    footer {
+        width: 600px;
+    }
+
+    .footer__text h1 {
+        font-size: 26px;
+    }
+
+    .footer__text p {
+        font-size: 15px;
+    }
+
+    .e-mail__box {
+        width: 380px;
+    }
+
+    .e-mail__box button {
+        width: 88px;
+        padding: 8px 5px;
+    }
+
+    .footer__p {
+        font-size: 13px;
+    }
+}
