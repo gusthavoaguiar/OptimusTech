@@ -19,6 +19,12 @@ body {
     flex-direction: column;
 }
 
+@media screen and (min-width: 769px) {
+    .btn__menu {
+        display: none;
+    }
+}
+
 @media screen and (max-width: 768px) {
     
     nav {
@@ -27,6 +33,10 @@ body {
     
     .-p {
         display: none;
+    }
+
+    .btn__menu {
+        font-size: 22px;
     }
     
     nav img {
@@ -99,13 +109,6 @@ body {
         margin-right: 16px;
     }
 
-    ul {
-        margin-top: 32px;
-        gap: 24px;
-        display: flex;
-        flex-wrap: wrap;
-    }
-
     .header h1 {
         margin-left: 490px;
         width: 1000px;
@@ -165,6 +168,80 @@ body {
     .e-mail__box button {
         width: 88px;
         padding: 8px 5px;
+    }
+
+    .footer__p {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .header h1 {
+        margin-left: 615px;
+        font-size: 30px;
+    }
+
+    .header__text {
+        width: 400px;
+        font-size: 16px;
+        display: flex;
+        text-align: center;
+    }
+
+    .metric {
+        display: flex;
+        text-align: center;
+    }
+
+    .job h1 {
+        font-size: 25px;
+    }
+
+    .job p {
+        width: 400px;
+        font-size: 20px;
+    }
+
+    .job img {
+        width: 450px;
+    }
+
+    .title {
+        margin-left: 340px;
+    }
+
+    .vaga {
+        width: 450px;
+    }
+
+    .testimony {
+        width: 325px;
+    }
+
+    .quote h1{
+        width: 400px;
+        font-size: 20px;
+    }
+
+    footer {
+        width: 500px;
+    }
+
+    .footer__text h1 {
+        font-size: 22px;
+    }
+
+    .footer__text p {
+        font-size: 14px;
+    }
+
+    .e-mail__box {
+        width: 380px;
+    }
+
+    .e-mail__box button {
+        font-size: 12px;
+        width: 75px;
     }
 
     .footer__p {
